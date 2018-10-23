@@ -1,28 +1,39 @@
 .App {
   text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App > h1 >a {
+  font-size: 40px;
+  color: pink;
+  text-decoration: none;
+  height: 200px;
+  width: 100%;
+  background-color: lavender;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.App > div {
+  font-size: 10px;
 }
-
-.App-title {
-  font-size: 1.5em;
+.App > button {
+  background-color: lavender;
+  height: 50px;
+  width: 300px;
 }
-
-.App-intro {
-  font-size: large;
+Image {
+  height:100px;
+  width: 100px;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.displayBox{
+  /* height: 500px;
+  width: 500px;
+  border: 2px solid pink;
+  overflow: auto; */
+}
+.genreBox {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  overflow: auto;
 }
