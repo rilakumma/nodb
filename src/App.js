@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import Image from './components/Image';
 import Search from './components/Search';
+import Header from './components/Header';
 
 
 class App extends Component {
@@ -74,7 +75,7 @@ class App extends Component {
 
     return (
       <div className="App">
-      <h1><a href="./App.js">Anime</a></h1>
+      <Header />
       
 
       <Search genre={this.state.genre} update={this.getGenre} />

@@ -1,39 +1,48 @@
 .App {
-  text-align: center;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  /* background-color: rgb(248, 209, 215); */
 }
 
-.App > h1 >a {
-  font-size: 40px;
-  color: pink;
+header{
+  width:100%;
+  height: 90px;
+  color: rgb(61,61,61);
   text-decoration: none;
-  height: 200px;
-  width: 100%;
-  background-color: lavender;
+  background: linear-gradient(90deg, pink, lavender, purple);
 }
+header > div {
+  max-width: 1000px;
+  width:100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  
+}
+/* 
 .App > div {
   font-size: 10px;
 }
 .App > button {
-  background-color: lavender;
+  background-color: grey;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
   height: 50px;
-  width: 300px;
+  width: 200px;
 }
 Image {
   height:100px;
   width: 100px;
 }
-.displayBox{
-  /* height: 500px;
-  width: 500px;
-  border: 2px solid pink;
-  overflow: auto; */
-}
+
 .genreBox {
   height: 300px;
   width: 300px;
   border: 2px solid black;
   overflow: auto;
-}
+} */
